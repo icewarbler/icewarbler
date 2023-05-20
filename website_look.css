@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+
+div.emotion {
+    height: 10em;
+    position: relative; 
+}
+
+div.emotion p {
+    margin: 0;
+    background: rgb(0, 0, 128);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
