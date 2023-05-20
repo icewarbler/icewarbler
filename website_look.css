@@ -17,3 +17,7 @@ div.emotion p {
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
+
+div.calendar {
+    position: relative;
+}
