@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>How is Beau doing today?</title>
         <link rel="stylesheet" href="website_look.css">
+
+        <!--required for python to work; connects to pyscript-->
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <title>How is Beau doing today?</title>
     </head>
     <body>
         <div class="emotion">
             <p>questionable</p>
         </div>
         <div class = "calendar">
-            <py-script src="clock.py"></py-script>
+            <py-script src="clock.py">
+            </py-script>
         </div>
     </body>
 </html>
